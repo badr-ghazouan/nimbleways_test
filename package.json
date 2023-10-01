@@ -9,17 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.5.1",
+    "moment": "^2.29.4",
+    "next": "latest",
     "react": "latest",
+    "react-datepicker": "^4.18.0",
     "react-dom": "latest",
-    "next": "latest"
+    "react-moment": "^1.1.3",
+    "react-moment-datepicker": "^0.0.10"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
-  }
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  },
+  "proxy": "http://localhost:3001"
+
 }
