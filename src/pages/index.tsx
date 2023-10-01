@@ -25,7 +25,9 @@ export default function Home() {
       } catch (error) {
         console.error(error.message)
       }finally{
-        setStartDate(new Date())
+        // Note that as the Mockoon tool is new for me, I got the CORS error to get the startDate
+        // that's why in case of CORS error, I add it manually
+        setStartDate(new Date("2023/01/01"))
       }
     }
 
